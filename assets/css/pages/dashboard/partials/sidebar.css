@@ -1,0 +1,79 @@
+.sidebar-menu {
+  background-color: var(--verde-claro);
+  height: 100vh;
+  padding: 1.5rem;
+  color: black;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: fontRegular;
+}
+
+.container-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-menu .nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  width: 100%;
+  margin-top: 2rem;
+  height: 82vh;
+}
+
+.nav-links a {
+  font-size: 16px;
+  color: black;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-links a,
+.logout a {
+  border-radius: 12px;
+  transition-property: color, background-color, fill;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.nav-links li .selected,
+.nav-links a:hover,
+.logout a:hover {
+  color: black;
+  background-color: var(--verde-escuro);
+  fill: black;
+}
+
+.logout li {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.logout a {
+  display: grid;
+  place-items: center;
+  padding: 0.5rem;
+}
+
+.logout .container-user {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user-content {
+  font-family: fontBold;
+}
+
+.user-content .user-name {
+  font-size: 24px;
+}
+
+.user-content .user-email {
+  font-size: 14px;
+}

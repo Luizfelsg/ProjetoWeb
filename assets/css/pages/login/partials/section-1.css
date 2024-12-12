@@ -1,0 +1,189 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--verde-claro);
+  background-image: url(/assets/imgs/Group\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.input-field {
+  position: relative;
+  margin-top: 10px;
+  margin-right: 80px;
+}
+
+.input-field input {
+  width: 130%;
+  padding: 12px 40px 12px 40px;
+  border-radius: 12px;
+  border: none;
+  text-align: left;
+  background-color: white;
+  color: black;
+}
+
+.input-field img {
+  position: absolute;
+  left: 110%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+  opacity: 90%;
+}
+
+.input-field img#togglePassword {
+  cursor: pointer;
+}
+
+.options {
+  text-align: right;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.options a {
+  font-family: fontBold;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.options a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: var(--verde-escuro);
+  color: white;
+  position: relative;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: green;
+}
+
+.texto-registro {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-family: fontBold;
+}
+
+.texto-registro a {
+  font-family: fontBold;
+  color: white;
+  text-decoration: none;
+}
+
+.texto-registro a:hover {
+  font-family: fontBold;
+  color: black;
+  text-decoration: underline;
+}
+
+.icon-email {
+  position: absolute;
+  left: 40.3%;
+  transform: translateY(18px);
+}
+
+.icon-password {
+  position: absolute;
+  left: 40.3%;
+  transform: translateY(74px);
+}
+
+.icon-password-dois {
+  position: absolute;
+  left: 40.3%;
+  transform: translateY(128px);
+}
+.texto-cadastro {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-family: fontBold;
+}
+
+.texto-cadastro a {
+  font-family: fontBold;
+  color: white;
+  text-decoration: none;
+}
+
+.texto-cadastro a:hover {
+  font-family: fontBold;
+  color: black;
+  text-decoration: underline;
+}
+
+.input-field-dois {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 80px;
+}
+
+.input-field-dois input {
+  width: 130%;
+  padding: 12px 40px 12px 40px;
+  border-radius: 12px;
+  border: none;
+  text-align: left;
+  background-color: white;
+  color: black;
+}
+
+.input-field-dois img {
+  position: absolute;
+  left: 110%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+  opacity: 90%;
+}
+
+.input-field-dois img#togglePassword {
+  cursor: pointer;
+}
+
+.login-card {
+  font-family: fontBold;
+  font-size: 12px;
+  text-align: center;
+}
+
+.icon-email-tres {
+  position: absolute;
+  left: 770px;
+  transform: translateY(110px);
+}
+
+.input-field-tres {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 80px;
+}
+
+.input-field-tres input {
+  width: 130%;
+  padding: 12px 40px 12px 40px;
+  border-radius: 12px;
+  border: none;
+  text-align: left;
+  background-color: white;
+  color: black;
+}

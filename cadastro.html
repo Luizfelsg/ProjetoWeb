@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de cadastro</title>
+    <link rel="stylesheet" href="/assets/css/pages/login.css">
+</head>
+<body>
+    <section class="login-container">
+        <div class="login-card">
+            <div class="icon-email">
+                <img src="/assets/imgs/mail.svg" alt="">
+            </div>
+            <div class="icon-password">
+                <img src="/assets/imgs/simbolo senha.svg" alt="">
+            </div>
+            <div class="icon-password-dois">
+                <img src="/assets/imgs/simbolo senha.svg" alt="">
+            </div>
+        </div>
+        <form>
+            <div class="input-field-dois">
+                <input type="email" placeholder="Digite seu E-mail" required>
+            </div>
+            <div class="input-field-dois">
+                <input type="password" id="password" placeholder="Digite sua senha" required>
+                <img src="/assets/imgs/SemOlho.svg" alt="mostrar Senha" id="togglePassword">
+            </div>
+
+            <div class="input-field-dois">
+                <input type="password" id="password" placeholder="Confirme sua senha" required>
+                <img src="/assets/imgs/SemOlho.svg" alt="mostrar Senha" id="togglePassword">
+            </div>
+
+            <button type="submit">CADASTRE-SE</button>
+        </form>
+        
+        <p class="texto-cadastro">Já possui conta? <a href="/login.html">Voltar para login!</a></p>
+    </section>
+    <script src="/assets/js/olho-magico.js"></script>
+</body>
+</html>

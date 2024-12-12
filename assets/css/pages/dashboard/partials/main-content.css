@@ -1,0 +1,81 @@
+.bg-main {
+  background-color: var(--verde-claro);
+  padding: 1rem;
+  width: 100%;
+}
+
+.main-content {
+  background-color: rgb(221, 220, 220);
+  border-radius: 12px;
+  padding: 1rem;
+  height: 100%;
+  width: 100%;
+}
+
+.container-bem-vindo h1 {
+  font-family: fontBold;
+  font-size: 20px;
+}
+
+.box-opcoes {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  width: calc(50%-1rem);
+  transform: translateY(35%);
+}
+
+.box-opcoes .opcoes-um {
+  background-color: rgb(15, 131, 226);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 2px 4px 4px 1px rgba(2, 79, 82, 0.2);
+  font-size: 16px;
+  font-family: fontRegular;
+  text-align: center;
+}
+
+.box-opcoes .opcoes-dois {
+  background-color: rgb(46, 177, 13);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 2px 4px 4px 1px rgba(2, 79, 82, 0.2);
+  font-size: 16px;
+  font-family: fontRegular;
+  text-align: center;
+}
+
+.box-opcoes .opcoes-tres {
+  background-color: rgb(204, 16, 73);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 2px 4px 4px 1px rgba(2, 79, 82, 0.2);
+  font-size: 16px;
+  font-family: fontRegular;
+  text-align: center;
+}
+
+.box-opcoes .opcoes-quatro {
+  background-color: rgb(218, 221, 7);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 2px 4px 4px 1px rgba(2, 79, 82, 0.2);
+  font-size: 16px;
+  font-family: fontRegular;
+  text-align: center;
+}
+
+.box-comunicados {
+  display: inline-block;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 60%;
+  border-radius: 12px;
+  box-shadow: 2px 4px 4px 1px rgba(2, 79, 82, 0.2);
+  transform: translateY(115px);
+  font-family: fontRegular;
+  font-size: 14px;
+  text-align: left;
+}

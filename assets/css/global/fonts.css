@@ -1,0 +1,11 @@
+@font-face {
+  font-family: fontBold;
+  src: url(/assets/fonts/IBM_Plex_Mono/IBMPlexMono-Bold.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: fontRegular;
+  src: url(/assets/fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf);
+  font-display: swap;
+}
